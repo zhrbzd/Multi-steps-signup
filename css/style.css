@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'icoMoon';
+    src: url('../fonts/icomoon.eot'),
+        url('../fonts/icomoon.ttf'),
+        url('../fonts/icomoon.woff');
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'icoMoon';
+    text-align: center;
+}
+.range{
+    width: 40%;
+    margin-top: 1rem;
+}
+h4{
+    margin-bottom: 70px;
+}
+h5{
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+input{
+    display: block;
+    margin-top: 5px;
+    width: 100%;
+    padding: 8px 5px 8px 15px;
+    border-radius: none;
+    margin-top: 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    caret-color: #5c5c5c;
+}
+/* Carets in inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    appearance: none;
+    margin: 0;
+}
+/* When input indexed */
+input:focus{
+    outline: none;
+}
+a{
+    margin: 15px 0 0 0;
+    border: none;
+    padding: 7px 12px 8px 12px;
+    text-decoration: none;
+    background-color: #ff2f3a;
+    color: white;
+    margin: 10px;
+    font-size: 13px;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px #969696;
+}
+/* Total of sign ups components */
+.signUp{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    padding: 15px 20px;
+    text-align: center;
+}
+/* A div on signup there are a header and four inputs */
+.signUp div{
+    box-shadow: 0px 0px 6px #a5a5a5;
+    padding: 20px 50px 50px 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+form{
+    width: 100%;
+}
+/* nect and previous icons */
+img{
+    width: 10px;
+}
+/* it is a p tag in project */
+p{
+    text-align: justify;
+    margin-bottom: 0;
+    line-height: 1.5rem;
+}
+/* When input valid will have 'inputClass' class */
+.inputSuccess{
+    border: 1px solid #009600;
+    transition: .5s all;
+}
+/* When input invalid will have 'inputDanger' class */
+.inputDanger{
+    border: 1px solid #ff2f3a;
+    transition: .5s all;
+}
+.next:hover{
+    cursor: pointer;
+}

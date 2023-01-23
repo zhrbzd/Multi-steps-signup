@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Sign Up Online Application | Second step</title>
+    </head>
+    <body>
+        <img class="range" src="../img/range-two.gif" alt="range-two">
+        <!-- Total of form contents -->
+        <div class="signUp" style="bottom: 20%">
+            <!-- Form components -->
+            <form action="" class="form">
+                <h2>Online Application</h2>
+                <!-- Inputs and one header -->
+                <div style="bottom: 40%">
+                    <h5>Contact information</h5>
+                    <input type="email" name="" id="" placeholder="Email address" class="input email" maxlength="25">
+                    <input type="number" name="" id="" placeholder="Phone" class="input phone" onkeypress="if(this.value.length == 11) return false">
+                    <input type="number" name="" id="" placeholder="Mobile" class="input mobile" onkeypress="if(this.value.length == 11) return false">
+                </div>
+                <!-- one button with left icon -->
+                <a href="../index.html">
+                    <i><img src="../img/left-icon.gif" alt="left icon" style="margin-right: 7px"></i>Previous
+                </a>
+                <!-- Two button with right icon -->
+                <a href="" class="next" onclick="thirdStep()">Next
+                    <i><img src="../img/right-icon.gif" alt="right icon" style="margin-left: 3px;"></i>
+                </a>
+            </form>
+        </div>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
